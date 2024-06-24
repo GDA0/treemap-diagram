@@ -52,8 +52,27 @@
 				</div>
 			</nav>
 		</header>
-		<main class="flex-grow-1"></main>
-		<footer class="container text-center fw-medium text-secondary mt-auto">
+		<main class="flex-grow-1">
+			<div class="container mt-3">
+				<nav class="text-center fs-5">
+					<a href="?data=videogames">Video Game Data Set</a> |
+					<a href="?data=movies">Movies Data Set</a> |
+					<a href="?data=kickstarter">Kickstarter Data Set</a>
+				</nav>
+				<div
+					class="container bg-white rounded shadow-sm overflow-auto p-2 mt-3"
+					style="max-width: fit-content"
+				>
+					<div class="text-center">
+						<h1 id="title"></h1>
+					</div>
+					<div class="text-center" id="description"></div>
+					<svg id="treemap-diagram"></svg>
+					<svg class="d-block ps-3" id="legend" width="960"></svg>
+				</div>
+			</div>
+		</main>
+		<footer class="container text-center fw-medium text-secondary mt-3">
 			<p>
 				&copy;
 				<script>

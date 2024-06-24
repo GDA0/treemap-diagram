@@ -15,10 +15,14 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-footer a {
+.g {
+	font-size: 10.25px;
+}
+
+a {
 	text-decoration: none;
 }
 
-footer a:hover {
+a:hover {
 	text-decoration: underline;
 }
